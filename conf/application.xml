@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- XMLConfiguration for Alarm dispatchd -->
+<AppConfig>
+	<DBResource>
+		<!-- Section for Database Params -->
+		<DBResourceParams>
+			   <user>root</user>
+			   <password>admin</password>
+			   <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+			   <driverUrl>jdbc:mysql://localhost:3306/iTask</driverUrl>
+               <initialPoolSize>0</initialPoolSize>
+				<minPoolSize>0</minPoolSize>
+				<maxPoolSize>30</maxPoolSize>
+               <maxIdleTime>30</maxIdleTime>
+        </DBResourceParams>
+	</DBResource>
+	<!-- Section for  database -->	
+	<Resource>
+	</Resource>
+</AppConfig>
